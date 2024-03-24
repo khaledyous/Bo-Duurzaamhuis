@@ -1,4 +1,18 @@
-.Text
-{
-    text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {}
+
+html {
+    font-size: 62,5%;
+}
+
+body {
+
+    min-height: 100vh;
+    background: white;
 }
