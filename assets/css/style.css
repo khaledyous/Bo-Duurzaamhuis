@@ -16,3 +16,56 @@ body {
     min-height: 100vh;
     background: white;
 }
+
+/* Font */
+h1,h2,h3,h4,h5,h6,a,p 
+{
+	color: rgb(36, 36, 36);
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.6rem;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	background: rgb(255, 255, 255);
+	align-items: center;
+	font-size: 1.6rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 20vw;
+	position: relative;
+}
+
+.header-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.header-title {
+	font-size: 3rem;
+}
+
+.header-figure-img {
+	height: 5rem;
+	width: auto;
+}
+
+.header-right {
+	display: flex;
+	gap: 0.4rem;
+}
+
+/* Main */
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 4rem;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	background: linear-gradient(to right, #dce3dc, #175917)
+}
