@@ -35,6 +35,7 @@
         </div>
     </header>
 
+    <!--khaled-->
     <main class="main">
         <section class="main-zon widget">
             <h2>⛅Zons-Opkomst & Zons-Ondergang⛅</h2>
@@ -47,6 +48,18 @@
             <canvas class="main-buitentemperatuur-chart" id="warmteChart"></canvas>
         </section>
 
+        <section class="main-berekeningen widget">
+            <h2>🟰 Berekeningen 🟰</h2>
+            <p> <input type="number" id="input1"> </p>
+            <p> <input type="number" id="input2"></p>
+            <p><span id="answer">...</span></p>
+            <br>
+            <button onclick="calc()" id="calc">Reken</button>
+        </section>
+    <!--khaled-->
+
+
+    <!--OMAR-->
         <section class="main-stroomverbruik widget">
             <h2>⚡ Stroomverbruik ⚡</h2>
             <canvas class="main-buitentemperatuur-chart" id="stroomChart"></canvas>
@@ -55,38 +68,6 @@
         <section class="main-waterverbruik widget">
             <h2>💧 Waterverbruik 💧</h2>
             <canvas class="main-buitentemperatuur-chart" id="waterChart"></canvas>
-        </section>
-
-
-        <section class="main-waterverbruik widget">
-            <h2>🌡️Buiten Temperatuur🌡️ </h2>
-            <canvas class="main-buitentemperatuur-chart" id="Buitentmp"></canvas>
-        </section>
-
-        <section class="main-waterverbruik widget">
-            <h2>🌡️Buiten & Binnen Temperatuur🌡️ </h2>
-            <canvas class="main-buitentemperatuur-chart" id="BuitenBinnen"></canvas>
-        </section>
-
-        
-        <section class="main-waterverbruik widget">
-            <h2> 🔦Lamp Status🔦 </h2>
-            <p id="Onbutton">On:</p>
-            <p>Off:</p>
-            <canvas class="main-buitentemperatuur-chart" id="LampStatus"></canvas>
-        </section>
-
-
-
-
-
-        <section class="main-berekeningen widget">
-            <h2>🟰 Berekeningen 🟰</h2>
-            <p> <input type="number" id="input1"> </p>
-            <p> <input type="number" id="input2"></p>
-            <p><span id="answer">...</span></p>
-            <br>
-            <button onclick="calc()" id="calc">Reken</button>
         </section>
 
         <section class="main-lampjes widget">
@@ -105,6 +86,31 @@
                 <span class="slider round"></span>
             </label>
         </section>
+     <!--OMAR-->
+
+
+
+    <!--yunes-->
+        <section class="main-waterverbruik widget">
+            <h2>🌡️Huidige Temperatuur🌡️ </h2>
+            <canvas class="main-buitentemperatuur-chart" id="Buitentmp"></canvas>
+        </section>
+
+        <section class="main-waterverbruik widget">
+            <h2>🌞Buiten & Binnen Temperatuur🌞 </h2>
+            <canvas class="main-buitentemperatuur-chart" id="BuitenBinnen"></canvas>
+        </section>
+
+        
+        <section class="main-waterverbruik widget">
+            <h2> 🔦Lamp Status🔦 </h2>
+            <p id="Onbutton">On:</p>
+            <p>Off:</p>
+            <canvas class="main-buitentemperatuur-chart" id="LampStatus"></canvas>
+        </section>
+    <!--yunes-->
+
+
     </main>
     <footer class="footer">
         <p>Duurzaam Huis</p>

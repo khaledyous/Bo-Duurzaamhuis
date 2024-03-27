@@ -69,3 +69,27 @@ h1,h2,h3,h4,h5,h6,a,p
 	padding-bottom: 10vh;
 	background: linear-gradient(to right, #dce3dc, #175917)
 }
+
+.test {
+	color: #c56d50;
+	color: #c79c52
+}
+
+.widget {
+	margin: 0vh 20vw;
+	min-height: 30vh;
+	background: rgb(255, 255, 255);
+	border-radius: 0.5rem;
+	padding: 2.5rem;
+	box-shadow: 0 3px 50px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+	height: 10rem;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20vw;
+	background: white;
+}
